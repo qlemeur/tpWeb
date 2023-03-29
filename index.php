@@ -1,9 +1,10 @@
 <?php
 session_start();
+define('APPROOT', dirname(__FILE__));
 
-require_once('./app/libraries/database.php');
-require_once('./app/models/user.php');
-require_once('./app/controllers/users.php');
+// require_once('./app/libraries/database.php');
+// require_once('./app/models/user.php');
+require_once('app/controllers/Users.php');
 
 
 $users = new Users();

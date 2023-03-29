@@ -1,4 +1,6 @@
 <?php
+
+require_once(APPROOT . "/app/libraries/database.php");
 class User
 {
     private $db;

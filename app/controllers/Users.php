@@ -1,5 +1,5 @@
-<?
-require_once(APPROOT."/librairies/controller.php");
+<?php
+require_once(APPROOT."/app/libraries/controller.php");
 
 class Users extends Controller
 {

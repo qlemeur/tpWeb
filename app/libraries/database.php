@@ -1,7 +1,7 @@
 <?php
 
 //modèle des données de haut niveau
-abstract class Database
+class Database
 {
     private $host = 'localhost';
     private $dbname = 'blog';
