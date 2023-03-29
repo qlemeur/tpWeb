@@ -1,0 +1,13 @@
+html {
+	background-color: lightgray;
+}
+form {
+	color: darkblue;
+	position: relative;
+	text-align: center;
+}
+
+input {
+	background-color: lightblue;
+}
+
